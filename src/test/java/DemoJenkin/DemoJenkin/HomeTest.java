@@ -32,6 +32,18 @@ public class HomeTest {
 		Assert.assertEquals(title,"Facebook - Log In or Sign Up","Home page title doesn't Match");
 	}
 	
+	@Test
+	public void findFriends() {
+		
+		System.out.println("hello friends");
+	}
+	
+	@Test
+	public void findFriends2() {
+		
+		System.out.println("hello friends");
+	}
+	
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
