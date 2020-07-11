@@ -49,6 +49,12 @@ public class HomeTest {
 		
 		System.out.println("hello friends");
 	}
+
+	@Test
+	public void HelloFriends3() {
+
+		System.out.println("hello friends");
+	}
 	
 	@AfterMethod
 	public void TearDown() {
