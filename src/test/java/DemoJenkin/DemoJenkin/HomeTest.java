@@ -44,6 +44,12 @@ public class HomeTest {
 		System.out.println("hello friends");
 	}
 	
+	@Test
+	public void HelloFriends2() {
+		
+		System.out.println("hello friends");
+	}
+	
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
