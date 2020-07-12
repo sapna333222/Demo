@@ -97,6 +97,13 @@ public class HomeTest {
 		System.out.println("hello Stash5");
 	}
 
+	@Test
+	public void IamOnMaster() {
+
+		System.out.println("hello Master");
+	}
+
+
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
