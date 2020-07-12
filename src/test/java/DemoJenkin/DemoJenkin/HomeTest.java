@@ -51,16 +51,67 @@ public class HomeTest {
 	}
 
 	@Test
+	public void HelloFriends3() {
+
+		System.out.println("hello friends");
+	}
+
+	@Test
+	public void HelloFriends4() {
+
+		System.out.println("hello friends");
+	}
+
+	@Test
+	public void HelloFriends5() {
+
+		System.out.println("hello friends");
+	}
+
+	@Test
 	public void HelloFriends11() {
 
 		System.out.println("hello friends");
 	}
 
 	@Test
-	public void forkedBranch() {
+	public void HelloFriends110() {
 
 		System.out.println("hello friends");
 	}
+
+	@Test
+	public void HelloFriendsLocal() {
+
+		System.out.println("hello friends");
+	}
+
+	@Test
+	public void HelloFriendsLocal2() {
+
+		System.out.println("hello friends");
+	}
+	@Test
+	public void HelloStash5() {
+
+		System.out.println("hello Stash5");
+	}
+
+	@Test
+	public void IamOnMaster() {
+
+		System.out.println("hello Master");
+	}
+
+
+	@Test
+	public void RemoteOnMaster() {
+
+		System.out.println("hello Master");
+	}
+
+
+
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
