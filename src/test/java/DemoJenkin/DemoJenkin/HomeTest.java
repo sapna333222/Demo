@@ -91,6 +91,12 @@ public class HomeTest {
 
 		System.out.println("hello friends");
 	}
+	@Test
+	public void HelloStash5() {
+
+		System.out.println("hello Stash5");
+	}
+
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
