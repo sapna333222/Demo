@@ -104,6 +104,14 @@ public class HomeTest {
 	}
 
 
+	@Test
+	public void RemoteOnMaster() {
+
+		System.out.println("hello Master");
+	}
+
+
+
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
