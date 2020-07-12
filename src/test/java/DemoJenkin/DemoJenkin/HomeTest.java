@@ -110,7 +110,11 @@ public class HomeTest {
 		System.out.println("hello Master");
 	}
 
+	@Test
+	public void updated () {
 
+		System.out.println("hello Master");
+	}
 
 	@AfterMethod
 	public void TearDown() {
