@@ -116,6 +116,12 @@ public class HomeTest {
 		System.out.println("hello Master");
 	}
 
+	@Test
+	public void updated2 () {
+
+		System.out.println("hello Master");
+	}
+
 	@AfterMethod
 	public void TearDown() {
 		driver.close();
